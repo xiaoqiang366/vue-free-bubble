@@ -1,7 +1,7 @@
 {
   "name": "vue-free-bubble",
   "description": "基于vue2.0开发的一个可以在页面任意拖动的浮标按钮",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "edwin<aoxiaoqiang@163.com>",
   "license": "MIT",
   "private": false,

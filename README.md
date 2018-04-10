@@ -2,14 +2,15 @@
 
 > 针对移动端开发的一个可以在页面任意拖动的浮标按钮。主要处理的是 `touchstart` `touchmove` `touchend` 相关操作, 暂不支持 PC 端数遍操作。
 
+![vue-free-bubble 演示](./doc/vue-free-bubble.gif)
+
 ## 使用说明
 
-* 引用并注册组件
+* 注册组件
 
 ```javascript
 import Vue from 'vue'
-import App from './App.vue'
-import vueFreeBubble from './lib/index'
+import vueFreeBubble from 'vue-free-bubble'
 
 Vue.use(vueFreeBubble)
 ```
@@ -20,9 +21,9 @@ Vue.use(vueFreeBubble)
 <template>
   <div id="app">
     <vue-free-bubble
-      :size="60"
-      :isFreeMove="false"
-      :distanceToEdge = "20"
+      :size="bSize"
+      :isFreeMove="bIsFreeMove"
+      :distanceToEdge = "bDistanceToEdge"
       @click="bubbleClick" />
   </div>
 </template>
@@ -30,6 +31,13 @@ Vue.use(vueFreeBubble)
 <script>
 export default {
   name: 'app',
+  data() {
+    return {
+      bSize: 60,
+      bIsFreeMove: false,
+      bDistanceToEdge: 10
+    }
+  },
   methods: {
     bubbleClick() {
       console.log('ok')
