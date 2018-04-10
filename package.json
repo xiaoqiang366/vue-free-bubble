@@ -1,10 +1,11 @@
 {
   "name": "vue-free-bubble",
   "description": "基于vue2.0开发的一个可以在页面任意拖动的浮标按钮",
-  "version": "1.0.1",
-  "author": "edwin<aoxiaoqiang@163.com>",
+  "version": "1.0.2",
+  "author": "小强<aoxiaoqiang@163.com>",
   "license": "MIT",
   "private": false,
+  "keywords":["vue", "vue-free-bubble", "bubble", "vue component"],
   "main": "./dist/vue-free-bubble.js",
   "directories": {
     "dist": "dist"
