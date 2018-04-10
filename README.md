@@ -2,7 +2,7 @@
 
 > 针对移动端开发的一个可以在页面任意拖动的浮标按钮。主要处理的是 `touchstart` `touchmove` `touchend` 相关操作, 暂不支持 PC 端数遍操作。
 
-![vue-free-bubble 演示](./doc/vue-free-bubble.gif)
+![vue-free-bubble 演示](https://github.com/aoxiaoqiang/vue-free-bubble/raw/master/doc/vue-free-bubble.gif?20180410)
 
 ## 使用说明
 
