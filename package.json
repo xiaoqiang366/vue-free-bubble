@@ -1,19 +1,24 @@
 {
   "name": "vue-free-bubble",
-  "description": "基于vue2.0开发的一个可以在页面任意拖动的浮标按钮",
   "version": "1.0.3",
   "author": "小强<aoxiaoqiang@163.com>",
+  "description": "基于vue2.0开发的一个可以在页面任意拖动的浮标按钮",
+  "keywords": ["vue", "vue-free-bubble", "bubble", "vue component"],
+  "bugs": {
+    "url": "https://github.com/aoxiaoqiang/vue-free-bubble/issues",
+    "email": "aoxiaoqiang@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aoxiaoqiang/vue-free-bubble"
+  },
   "license": "MIT",
+  "files": ["dist", "src"],
   "private": false,
-  "keywords":["vue", "vue-free-bubble", "bubble", "vue component"],
   "main": "./dist/vue-free-bubble.js",
   "directories": {
     "dist": "dist"
   },
-  "files": [
-    "dist",
-    "src"
-  ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
